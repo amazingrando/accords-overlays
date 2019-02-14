@@ -1,0 +1,119 @@
+.wrapper {
+  width: 1920px;
+  height: 1080px;
+  border: gray 1px solid;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  display: flex;
+  padding-top: 20px;
+  align-items: stretch;
+}
+.card {
+  margin: 0 auto;
+  display: block;
+  width: 450px;
+  // transform: scale(0.5, 0.5);
+  align-self: center;
+
+  img {
+    display: block;
+    margin: 0;
+  }
+}
+
+.card__caption {
+  background: #B80218;
+  padding: 15px 25px 25px;
+  color: #FFF;
+  font-size: 22px;
+  height: 240px;
+}
+
+.card__fatepoints {
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+  float: right;
+  transform: scale(1.5,1.5);
+  position: relative;
+  top: 6px;
+}
+
+.card__name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card__name--real {
+  font-weight: normal;
+  font-size: 24px;
+  opacity: .7;
+}
+
+.card__primary-aspects {
+  margin: 0 0 10px;
+  padding: 0;
+  font-size: 22px;
+  line-height: 1.1;
+
+  li {
+    margin: 0 0 10px;
+    padding: 0;
+    list-style:none;
+  }
+
+
+}
+
+.card__label {
+  display: block;
+  color: darken(#B80218, 25%);
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.free-invoke {
+  color: lime;
+}
+
+.card__stress {
+  background: repeating-linear-gradient(45deg,#ff0,#ff0 10px,#000 0,#000 20px);
+  // height: 20px;
+  padding-top: 10px;
+}
+
+.card__stress__ticker {
+  background: #ff0;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+
+  dt,
+  dd {
+    display: inline-block;
+    margin: 0;
+  }
+
+  dt {
+    margin-right: 3px;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+
+    &::after {
+      content: ": ";
+    }
+  }
+
+  dd + dt {
+    margin-left: 30px;
+  }
+}

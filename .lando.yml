@@ -1,0 +1,4 @@
+name: accords
+recipe: custom
+config:
+  webroot: public

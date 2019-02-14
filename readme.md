@@ -1,5 +1,7 @@
 # Polyhedral Crew Screen Overlay
 
+![](https://www.dropbox.com/s/mm2wxjkrb3eabs6/Screenshot%202019-02-14%2009.38.10.png?dl=0)
+
 ## Requirements
 
 - [Node 8](https://nodejs.org/), preferably installed with [NVM](https://github.com/creationix/nvm).

@@ -3,7 +3,7 @@
 (function () {
   'use strict'
 
-  const gulp = require('gulp')
+  // const gulp = require('gulp')
   const browserSync = require('browser-sync').create()
   const clean = require('gulp-clean')
   const config = require('./gulp-config')
